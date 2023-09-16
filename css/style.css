@@ -45,7 +45,7 @@ html {
 .menu-content a {
     color: #4A4A4A;
     padding: 12px 16px;
-    font-family: 'roboto';
+    font-family: 'Roboto';
     text-decoration: none;
     display: block;
 }
@@ -61,5 +61,59 @@ html {
 /*End block header*/
 
 /*Start block intro*/
+.intro {
+     margin: auto;
+}
+
+.intro-teatle {
+    width: 513px;
+    height: 192px;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 96px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    border: 1px solid #2B4074;
+    background-color: #2B4074;
+}
+
+.intro-text {
+    width: 886px;
+    height: 60px;
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    background: #FFFFFF;
+    margin: auto;
+}
+
+.intro-buttons {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    background-color: #2B4074;
+    margin: auto;
+    align-content: center;
+}
+
+.intro-button-more { 
+  
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #F9F6E5;
+    text-decoration: none;
+    padding: 8% 23%;
+}
+
 
 /*End block intro*/
