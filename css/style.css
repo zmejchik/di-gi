@@ -7,11 +7,20 @@ html {
 *::after {
     box-sizing: inherit;
 }
-
+h1{
+    font-family: 'Roboto Condensed';
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 96px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0;
+}
 /*Start block header*/
 
 .header {
     box-shadow: 0px 0px 2px 0px #9B9B9B7F;
+    display: flex;   
 }
 
 .bg {
@@ -62,36 +71,32 @@ html {
 
 /*Start block intro*/
 .intro {
-     margin: auto;
+     display: flex;
+     flex-direction: column;
 }
 
 .intro-teatle {
-    width: 513px;
+    width: 514px;
     height: 192px;
-    font-family: 'Roboto Condensed';
-    font-weight: 400;
-    font-size: 96px;
-    font-weight: 400;
-    line-height: 96px;
-    letter-spacing: 2px;
-    text-align: center;
-    color: white;
-    margin: auto;
-    border: 1px solid #2B4074;
-    background-color: #2B4074;
+    top: 107px;
+    background: #2B4074;
+    color: #FFFFFF;
+    margin: 0 auto 18px auto;
 }
 
-.intro-text {
+.intro-text {   
     width: 886px;
     height: 60px;
+    top: 18px;
     font-family: 'Roboto Condensed';
-    font-size: 24px;
+    font-style: normal;
     font-weight: 400;
+    font-size: 24px;
     line-height: 26px;
-    letter-spacing: 0px;
     text-align: center;
-    background: #FFFFFF;
-    margin: auto;
+    color: #FFFFFF;
+    margin: 0 auto 28px auto;
+    background-color: #2B4074;
 }
 
 .intro-buttons {
