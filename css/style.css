@@ -7,7 +7,8 @@ html {
 *::after {
     box-sizing: inherit;
 }
-h1{
+
+h1 {
     font-family: 'Roboto Condensed';
     font-size: 96px;
     font-weight: 400;
@@ -16,11 +17,12 @@ h1{
     text-align: center;
     margin: 0;
 }
+
 /*Start block header*/
 
 .header {
     box-shadow: 0px 0px 2px 0px #9B9B9B7F;
-    display: flex;   
+    display: flex;
 }
 
 .bg {
@@ -34,13 +36,13 @@ h1{
 }
 
 .header-logo-link {
-    padding-left: 61px;
+    padding-left: 153px;
 }
 
 .dropdown-menu {
     position: relative;
     display: inline-block;
-    padding-right: 150px;
+    padding-right: 135px;
 }
 
 .menu-content {
@@ -71,23 +73,24 @@ h1{
 
 /*Start block intro*/
 .intro {
-     display: flex;
-     flex-direction: column;
+    display: flex;
+    width: 1440px;
+    height: 668px;
+    margin: 0 auto;
+    flex-direction: column;
+    background: rgba(33, 33, 33, 0.5);
 }
 
 .intro-teatle {
     width: 514px;
     height: 192px;
-    top: 107px;
-    background: #2B4074;
     color: #FFFFFF;
-    margin: 0 auto 18px auto;
+    margin: 107px auto 18px auto;
 }
 
-.intro-text {   
+.intro-text {
     width: 886px;
     height: 60px;
-    top: 18px;
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 400;
@@ -95,8 +98,8 @@ h1{
     line-height: 26px;
     text-align: center;
     color: #FFFFFF;
+    padding: 0 80px;
     margin: 0 auto 28px auto;
-    background-color: #2B4074;
 }
 
 .intro-buttons {
@@ -104,12 +107,11 @@ h1{
     width: 200px;
     height: 50px;
     background-color: #2B4074;
-    margin: auto;
+    margin: 0 auto 213px auto;
     align-content: center;
 }
 
-.intro-button-more { 
-  
+.intro-button-more {
     font-family: 'Roboto';
     font-size: 18px;
     font-weight: 400;
@@ -119,6 +121,47 @@ h1{
     text-decoration: none;
     padding: 8% 23%;
 }
+.intro-buttons:hover{
+    background-color: #6e93f1;
+} 
 
 
+.slider-container {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    z-index: -1;
+  }
+  
+  .slider {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slide {
+
+    display: inline-block;
+  }
+
+  .controls {
+    position: absolute;
+    top: 578px;
+    left: 695px;
+    margin: 0 auto 0 auto;
+  }
+  
+  .controls > input {    
+    accent-color: black;
+  }
+  
+  .buttons button {
+    margin: 5px;
+  }
+  
+  .buttons button:hover {
+    background-color: black;
+    color: white;
+  }
 /*End block intro*/

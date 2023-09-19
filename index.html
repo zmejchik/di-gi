@@ -43,28 +43,40 @@
 
     <!--Start block Intro-->
     <div class="intro" id="intro">
-
       <div class="intro-teatle">
         <h1>МИСЛИ ГЛОБАЛЬНО</h1>
       </div>
 
       <div class="intro-text">
-        Di Gі — це діджитал агенція повного циклу, спрямована на найкращий результат 
-        наших клієнтів в маркетингу, продажах та управлінні
+        Di Gі — це діджитал агенція повного циклу, спрямована на найкращий
+        результат наших клієнтів в маркетингу, продажах та управлінні
       </div>
 
       <div class="intro-buttons">
         <a href="#" class="intro-button-more">ДЕТАЛЬНІШЕ</a>
       </div>
 
+      <div class="slider-container">
+        <div class="slider">
+          <img src="images/intro-background.svg" alt="Image 1" class="slide" id="slide1">
+          <img src="images/intro-background2.png" alt="Image 2" class="slide" id="slide2">
+          <img src="images/intro-background3.png" alt="Image 3" class="slide" id="slide3">
+        </div>
+  
+        <div class="controls">
+          <input type="radio" name="slider" id="radio1" checked>
+          <input type="radio" name="slider" id="radio2">
+          <input type="radio" name="slider" id="radio3">
+        </div>
+  
+        <div class="buttons">
+          <button onclick="prevSlide()">Previous</button>
+          <button onclick="nextSlide()">Next</button>
+        </div>
+      <script src="js/slider.js"></script>
     </div>
-
+    
     <!--End block Intro-->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/main.js"></script>
   </body>
 </html>
-
-
-
