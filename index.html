@@ -46,37 +46,23 @@
       <div class="intro-teatle">
         <h1>МИСЛИ ГЛОБАЛЬНО</h1>
       </div>
-
-      <div class="intro-text">
-        Di Gі — це діджитал агенція повного циклу, спрямована на найкращий
-        результат наших клієнтів в маркетингу, продажах та управлінні
+      <div class="intro-text-slider">
+        <div class="intro-text" data-slide-index="0">Di Gі — це діджитал агенція повного циклу, спрямована на найкращий результат наших клієнтів в маркетингу, продажах та управлінні</div>
+        <div class="intro-text" data-slide-index="1">Інший текст для слайду 2</div>
+        <div class="intro-text" data-slide-index="2">Інший текст для слайду 3</div>
       </div>
-
       <div class="intro-buttons">
         <a href="#" class="intro-button-more">ДЕТАЛЬНІШЕ</a>
       </div>
-
-      <div class="slider-container">
-        <div class="slider">
-          <img src="images/intro-background.svg" alt="Image 1" class="slide" id="slide1">
-          <img src="images/intro-background2.png" alt="Image 2" class="slide" id="slide2">
-          <img src="images/intro-background3.png" alt="Image 3" class="slide" id="slide3">
-        </div>
-  
-        <div class="controls">
-          <input type="radio" name="slider" id="radio1" checked>
-          <input type="radio" name="slider" id="radio2">
-          <input type="radio" name="slider" id="radio3">
-        </div>
-  
-        <div class="buttons">
-          <button onclick="prevSlide()">Previous</button>
-          <button onclick="nextSlide()">Next</button>
-        </div>
-      <script src="js/slider.js"></script>  
+      <div class="controls">
+        <input type="radio" name="slide" value="0" checked> 
+        <input type="radio" name="slide" value="1">
+        <input type="radio" name="slide" value="2">
+        <button class="btn-prev">Попередній слайд</button>
+        <button class="btn-next">Наступний слайд</button>
+      </div>
+      <script src="js/slider.js"></script>
     </div>
-    
     <!--End block Intro-->
-
   </body>
 </html>
