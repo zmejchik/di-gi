@@ -126,42 +126,4 @@ h1 {
 } 
 
 
-.slider-container {
-    position: absolute;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    z-index: -1;
-  }
-  
-  .slider {
-    display: flex;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .slide {
-
-    display: inline-block;
-  }
-
-  .controls {
-    position: absolute;
-    top: 578px;
-    left: 695px;
-    margin: 0 auto 0 auto;
-  }
-  
-  .controls > input {    
-    accent-color: black;
-  }
-  
-  .buttons button {
-    margin: 5px;
-  }
-  
-  .buttons button:hover {
-    background-color: black;
-    color: white;
-  }
 /*End block intro*/
