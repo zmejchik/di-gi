@@ -23,6 +23,8 @@ h1 {
 .header {
     box-shadow: 0px 0px 2px 0px #9B9B9B7F;
     display: flex;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .bg {
@@ -73,12 +75,13 @@ h1 {
 
 /*Start block intro*/
 .intro {
+    position: relative;
     display: flex;
     width: 1440px;
     height: 668px;
     margin: 0 auto;
     flex-direction: column;
-    background: rgba(33, 33, 33, 0.5);
+    background-image: url(../images/intro-background.svg);
 }
 
 .intro-teatle {
@@ -102,6 +105,14 @@ h1 {
     margin: 0 auto 28px auto;
 }
 
+.intro-text-slider .intro-text {
+    display: none;
+}
+
+.intro-text-slider .intro-text.active {
+    display: block;
+}
+
 .intro-buttons {
     display: flex;
     width: 200px;
@@ -121,9 +132,10 @@ h1 {
     text-decoration: none;
     padding: 8% 23%;
 }
-.intro-buttons:hover{
+
+.intro-buttons:hover {
     background-color: #6e93f1;
-} 
+}
 
 
 /*End block intro*/

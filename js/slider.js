@@ -1,37 +1,35 @@
-// Функция для отображения слайда по индексу
-function showSlide(index) {
-  const slides = document.querySelectorAll('.slide');
-  slides.forEach(slide => slide.style.display = 'none');
-  slides[index].style.display = 'inline-block';
+document.addEventListener('DOMContentLoaded', function() {
+  let currentIndex = 0;
+  const introTextSlider = document.querySelector('.intro-text-slider');
 
-  // Устанавливаем выбранную radio кнопку
-  const radioButtons = document.querySelectorAll('input[type="radio"]');
-  radioButtons.forEach((radio, i) => {
-    radio.checked = i === index;
+  function showSlide(index) {
+    const slides = document.querySelectorAll('.intro-text-slider .intro-text');
+    slides.forEach((slide, i) => {
+      if (i === index) {
+        slide.classList.add('active');
+      } else {
+        slide.classList.remove('active');
+      }
+    });
+  }
+
+  showSlide(currentIndex);
+
+  document.querySelectorAll('input[name="slide"]').forEach((radio, index) => {
+    radio.addEventListener('change', function() {
+      currentIndex = parseInt(this.value);
+      showSlide(currentIndex);
+    });
   });
-}
-// Функция для обработки нажатия на radio кнопки
-function handleRadioClick(index) {
-  showSlide(index);
-}
-// Функции для переключения слайдов
-function nextSlide() {
-  currentSlide = (currentSlide + 1) % 3;
-  showSlide(currentSlide);
-}
 
-function prevSlide() {
-  currentSlide = (currentSlide - 1 + 3) % 3;
-  showSlide(currentSlide);
-}
+  document.querySelector('.btn-prev').addEventListener('click', function() {
+    currentIndex = (currentIndex - 1 + 3) % 3; // 3 is the total number of slides
+    showSlide(currentIndex);
+  });
 
-const radioButtons = document.querySelectorAll('input[type="radio"]');
-radioButtons.forEach((radio, index) => {
-  radio.addEventListener('click', () => {
-    handleRadioClick(index);
+  document.querySelector('.btn-next').addEventListener('click', function() {
+    currentIndex = (currentIndex + 1) % 3; // 3 is the total number of slides
+    showSlide(currentIndex);
   });
 });
 
-// Показываем первый слайд при загрузке страницы
-let currentSlide = 0;
-showSlide(currentSlide);
