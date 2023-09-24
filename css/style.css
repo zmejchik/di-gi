@@ -2,6 +2,11 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 *,
 *::before,
 *::after {
@@ -81,7 +86,7 @@ h1 {
     height: 668px;
     margin: 0 auto;
     flex-direction: column;
-    background-image: url(../images/intro-background.svg);
+    background-image: url(../images/intro-background.png);
 }
 
 .intro-teatle {
@@ -137,17 +142,28 @@ h1 {
     background-color: #6e93f1;
 }
 
-.controls{
+.controls {
     position: relative;
     margin: 0 auto;
 }
-.buttons-slider{  
-    bottom: 264px;
-    right: 0;  
+
+.buttons-slider {
+    bottom: 50%;
+    right: 0;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    
 }
+
+.btn-prev, .btn-next{
+    background: rgba(43, 64, 116, 1);
+}
+
+.btn-prev:hover, .btn-next:hover{
+    background: rgba(249, 246, 229, 1);
+    cursor: pointer;
+}
+
+
 /*End block intro*/
