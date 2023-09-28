@@ -328,15 +328,15 @@ h1 {
 }
 
 .services-icon {
+    display: block;
     width: 25%;
     height: 112px;
-    
 }
-
+.services-image{
+    display: block;
+    margin: 0 auto;
+}
 .services-icon-text {
-    width: 93.8px;
-    height: 20px;
-    top: 91.54px;
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 700;
@@ -344,6 +344,9 @@ h1 {
     line-height: 19px;
     letter-spacing: 2px;
     color: #4A4A4A;
+    padding-top: 27px; 
+    margin: 0 auto;
+    text-align: center;
 }
 
 /*End block services*/
