@@ -235,40 +235,114 @@ h1 {
 .services {
     width: 1440px;
     height: 547px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.services-left {
+    width: 516px;
+    height: 547px;
     margin: 0 auto;
-    background: #FFFFFF; 
+    background: #FFFFFF;
     position: relative;
     display: flex;
     flex-direction: column;
-    background: #FFFFFF;
-
 }
 
 .services-title {
+    position: relative;
     width: 131px;
     height: 56px;
+    top: 90px;
+    left: 62px;
     font-family: 'Roboto Condensed';
     font-size: 48px;
     font-weight: 400;
     line-height: 56px;
     letter-spacing: 0px;
     text-align: left;
-    margin: 90px auto auto 62px;
     color: #2B4074;
 }
-.services-slogan{
-    position: absolute;
+
+.services-content {
+    position: relative;
+    width: 393px;
+    height: 278px;
+    top: 134px;
+    left: 62px;
+
+}
+
+.services-slogan {
+    position: relative;
     width: 393px;
     height: 60px;
-    left: 0px;
-    top: 76.4px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 26px;
+    color: #4A4A4A;
+}
+
+.services-line {
+    position: relative;
+    width: 98.74px;
+    height: 8px;
+    top: 30px;
+    background-color: #2B4074;
+}
+
+.services-manual {
+    position: relative;
+    width: 351px;
+    height: 68px;
+    top: 74px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #797979;
+}
+
+.services-items {
+    position: relative;
+    width: 921px;
+    height: 547px;
+}
+
+.services-icon-wrapper {
+    position: relative;
+    width: 853px;
+    height: 467px;
+    top: 79px;
+    left: 27px;
     display: flex;
-    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: stretch;
+}
+
+.services-icon {
+    width: 25%;
+    height: 112px;
+    
+}
+
+.services-icon-text {
+    width: 93.8px;
+    height: 20px;
+    top: 91.54px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
     color: #4A4A4A;
 }
 
