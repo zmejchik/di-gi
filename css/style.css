@@ -480,4 +480,18 @@ h1 {
     height: 239px;
     border-radius: 5px;
 }
+.recent-work-picture-text{
+    position: relative;
+    width: 263px;
+    height: 26px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #2B4074;
+    margin: 29px auto 0 auto;
+}
 /*End block recent work*/
