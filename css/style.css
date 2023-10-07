@@ -622,6 +622,7 @@ h1 {
 .latest-news-wraper {
     position: relative;
     width: 1153px;
+    height: 714px;
     margin-top: 52px;
     display: flex;
     flex-direction: column;
@@ -647,7 +648,7 @@ h1 {
     position: relative;
     width: 100px;
     height: 8px;
-    background: #2B4074;
+    background-color: #2B4074;
     margin-bottom: 115px;
 }
 
@@ -672,21 +673,20 @@ h1 {
 
 .latest-news-text {
     position: relative;
-    width: 270px;
+    width: 230.71px;
     height: 22px;
-    border-radius: 5px;
-    padding-left: 20px;
+    left: 20.15px;
+    top: 8px;
+
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     letter-spacing: 2px;
     color: #4A4A4A;
-    background-color: #FFFFFF;
-    text-align: center;
 }
 
 /*End block latest news*/
