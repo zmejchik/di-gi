@@ -654,21 +654,38 @@ h1 {
 .latest-news-content {
     width: 1153px;
     height: 714px;
-    background-color: #2B4074;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 
-
-
-
-    background-color: #2B4074;
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    margin: auto;
-
+.latest-news-div-picture {
+    margin-bottom: 30px;
 }
 
 .latest-news-div-picture img {
     width: 270px;
+    margin-top: 8px;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.latest-news-text {
+    position: relative;
+    width: 230.71px;
+    height: 22px;
+    left: 20.15px;
+    top: 8px;
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 2px;
+    color: #4A4A4A;
 }
 
 /*End block latest news*/
