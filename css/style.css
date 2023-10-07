@@ -673,7 +673,7 @@ h1 {
 .latest-news-text {
     position: relative;
     width: 270px;
-    height: 22px;
+    height: 40px;
     border-radius: 5px;
     padding-left: 20px;
     font-family: 'Roboto Condensed';
@@ -682,7 +682,7 @@ h1 {
     font-size: 16px;
     line-height: 19px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     letter-spacing: 2px;
     color: #4A4A4A;
     background-color: #FFFFFF;
