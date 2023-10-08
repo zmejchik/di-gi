@@ -660,6 +660,8 @@ h1 {
     margin-bottom: 50px;
 }
 
+
+
 .latest-news-div-picture img {
     border-radius: 5px;
 }
@@ -697,6 +699,17 @@ h1 {
 .latest-picture-height-437 {
     width: 270px;
     height: 437px;
+}
+
+.latest-news-div-picture img:hover {
+
+    box-sizing: border-box;
+    position: relative;
+    width: 270px;
+    background: rgba(43, 64, 116, 0.3);
+    border: 10px solid #2B4074;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
 }
 
 .latest-news-text {
