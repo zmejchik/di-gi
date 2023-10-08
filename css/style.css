@@ -659,34 +659,46 @@ h1 {
     width: 270px;
     margin-bottom: 50px;
 }
-.latest-picture-height-444{
+
+.latest-news-div-picture img {
+    border-radius: 5px;
+}
+
+.latest-picture-height-444 {
     width: 270px;
     height: 444px;
 }
-.latest-picture-height-342{
+
+.latest-picture-height-342 {
     width: 270px;
     height: 342px;
 }
-.latest-picture-height-383{
+
+.latest-picture-height-383 {
     width: 270px;
     height: 383px;
 }
-.latest-picture-height-210{
+
+.latest-picture-height-210 {
     width: 270px;
     height: 210px;
 }
-.latest-picture-height-197{
+
+.latest-picture-height-197 {
     width: 270px;
     height: 197px;
 }
-.latest-picture-height-218{
+
+.latest-picture-height-218 {
     width: 270px;
     height: 218px;
 }
-.latest-picture-height-437{
+
+.latest-picture-height-437 {
     width: 270px;
     height: 437px;
 }
+
 .latest-news-text {
     position: relative;
     width: 270px;
