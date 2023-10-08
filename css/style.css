@@ -730,3 +730,19 @@ h1 {
 }
 
 /*End block latest news*/
+/*Start block testimonial*/
+.testimonial {
+    position: relative;
+    width: 1440px;
+    height: 480px;
+    background: #FFFFFF;
+}
+.testimonial-wraper{
+    position: relative;
+    width: 1153px;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+}
+/*End block testimonial*/
