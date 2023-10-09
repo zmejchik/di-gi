@@ -703,7 +703,7 @@ h1 {
 
 .latest-news-div-picture:hover {
     .latest-news-text {
-        top: -80px;
+        top: -30%;
         width: 270px;        
         margin: auto;
         padding-left: 19px;
@@ -740,7 +740,24 @@ h1 {
     color: #4A4A4A;
  
 }
+.latest-news-button-hover{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top:-80%;
+    align-items: center;
+    margin-bottom: 10%;
+    visibility: hidden;
+}
 
+.latest-news-button-hover a>img {
+    width: 32px;
+    height: 32px;
+}
+
+.latest-news-div-picture:hover .latest-news-button-hover {
+    visibility: visible;
+}
 /*End block latest news*/
 /*Start block testimonial*/
 .testimonial {
