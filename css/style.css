@@ -701,23 +701,35 @@ h1 {
     height: 437px;
 }
 
-.latest-news-div-picture img:hover {
+.latest-news-div-picture:hover {
+    .latest-news-text {
+        top: -80px;
+        width: 270px;
+        height: 40px;
+        margin: auto;
+        padding-left: 19px;
+        align-items: center;
+        color: #F9F6E5;
+        background-color: #2B4074;        
+    }
 
-    box-sizing: border-box;
-    position: relative;
-    width: 270px;
-    background: rgba(43, 64, 116, 0.3);
-    border: 10px solid #2B4074;
-    border-radius: 4px;
+    .latest-news-image {
+        box-sizing: border-box;
+        position: relative;
+        width: 270px;
+        background: rgba(43, 64, 116, 0.3);
+        border: 10px solid #2B4074;
+        border-radius: 4px;
+    }
     transition: all 0.3s ease-in-out;
 }
 
 .latest-news-text {
     position: relative;
-    width: 270px;
-    height: 40px;
-    left: 20.15px;
+    width: 229px;
+    height: 22px;
     top: 8px;
+    margin: auto;
     text-align: left;
     font-family: 'Roboto Condensed';
     font-style: normal;
@@ -737,7 +749,8 @@ h1 {
     height: 480px;
     background: #FFFFFF;
 }
-.testimonial-wraper{
+
+.testimonial-wraper {
     position: relative;
     width: 1153px;
     height: 480px;
@@ -745,4 +758,5 @@ h1 {
     margin-right: auto;
     background-color: red;
 }
+
 /*End block testimonial*/
