@@ -704,11 +704,9 @@ h1 {
 .latest-news-div-picture:hover {
     .latest-news-text {
         top: -80px;
-        width: 270px;
-        height: 40px;
+        width: 270px;        
         margin: auto;
         padding-left: 19px;
-        align-items: center;
         color: #F9F6E5;
         background-color: #2B4074;        
     }
@@ -726,8 +724,9 @@ h1 {
 
 .latest-news-text {
     position: relative;
+    display: flex;    
     width: 229px;
-    height: 22px;
+    height: 40px;
     top: 8px;
     margin: auto;
     text-align: left;
@@ -739,6 +738,7 @@ h1 {
     align-items: center;
     letter-spacing: 2px;
     color: #4A4A4A;
+ 
 }
 
 /*End block latest news*/
