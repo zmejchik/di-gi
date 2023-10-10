@@ -772,6 +772,8 @@ h1 {
 
 .testimonial-wraper {
     position: relative;
+    display: flex;
+    flex-direction: column;
     width: 1153px;
     height: 480px;
     margin-left: auto;
@@ -781,7 +783,7 @@ h1 {
 .testimonial-coma {
     width: 32px;
     height: 14px;
-    margin: 100px auto 30px auto;
+    margin: 100px auto auto auto;
 }
 
 .testimonial-slider {
@@ -795,7 +797,11 @@ h1 {
     display: flex;
     align-items: flex-end;
     text-align: center;
+    margin-top: 30px;
     color: #4A4A4A;
+}
+.testimonial-text{
+    margin: auto;
 }
 .testimonial-slider span{
     font-weight: 700;
