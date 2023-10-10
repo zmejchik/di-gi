@@ -799,15 +799,31 @@ h1 {
     color: #4A4A4A;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 60px;
 }
-.testimonial-text{
+
+.testimonial-text {
     margin: 0 auto;
 }
-.testimonial-slider span{
+
+.testimonial-author {
+    height: 28px;
+    margin-top: 30px;
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #4A4A4A;
+
+}
+
+.testimonial-slider span {
     font-weight: 700;
     color: #2B4074;
 }
+
 .testimonial-slider .testimonial-text {
     display: none;
 }
@@ -815,4 +831,5 @@ h1 {
 .testimonial-slider .testimonial-text.active {
     display: block;
 }
+
 /*End block testimonial*/
