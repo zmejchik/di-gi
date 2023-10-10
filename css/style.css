@@ -704,11 +704,11 @@ h1 {
 .latest-news-div-picture:hover {
     .latest-news-text {
         top: -30%;
-        width: 270px;        
+        width: 270px;
         margin: auto;
         padding-left: 19px;
         color: #F9F6E5;
-        background-color: #2B4074;        
+        background-color: #2B4074;
     }
 
     .latest-news-image {
@@ -719,12 +719,13 @@ h1 {
         border: 10px solid #2B4074;
         border-radius: 4px;
     }
+
     transition: all 0.3s ease-in-out;
 }
 
 .latest-news-text {
     position: relative;
-    display: flex;    
+    display: flex;
     width: 229px;
     height: 40px;
     top: 8px;
@@ -738,13 +739,14 @@ h1 {
     align-items: center;
     letter-spacing: 2px;
     color: #4A4A4A;
- 
+
 }
-.latest-news-button-hover{
+
+.latest-news-button-hover {
     position: relative;
     display: flex;
     justify-content: center;
-    top:-80%;
+    top: -80%;
     align-items: center;
     margin-bottom: 10%;
     visibility: hidden;
@@ -758,6 +760,7 @@ h1 {
 .latest-news-div-picture:hover .latest-news-button-hover {
     visibility: visible;
 }
+
 /*End block latest news*/
 /*Start block testimonial*/
 .testimonial {
@@ -773,7 +776,36 @@ h1 {
     height: 480px;
     margin-left: auto;
     margin-right: auto;
-    background-color: red;
 }
 
+.testimonial-coma {
+    width: 32px;
+    height: 14px;
+    margin: 100px auto 30px auto;
+}
+
+.testimonial-slider {
+    width: 1443px;
+    height: 108px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #4A4A4A;
+}
+.testimonial-slider span{
+    font-weight: 700;
+    color: #2B4074;
+}
+.testimonial-slider .testimonial-text {
+    display: none;
+}
+
+.testimonial-slider .testimonial-text.active {
+    display: block;
+}
 /*End block testimonial*/
