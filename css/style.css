@@ -832,4 +832,17 @@ h1 {
     display: block;
 }
 
+.testimonial-wraper .controls .radio-buttons input:checked {
+    color: red;
+}
+
 /*End block testimonial*/
+/*Start block footer*/
+.footer {
+    width: 1440px;
+    height: 728px;
+    background-color: #2B4074;
+
+}
+
+/*End block footer*/
