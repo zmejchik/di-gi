@@ -909,8 +909,12 @@ h1 {
 .footer-cell{
     width:25%;
     border-right: 1px solid #7EBF84;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .footer-cell:last-child{
     border: none;
 }
+
 /*End block footer*/
