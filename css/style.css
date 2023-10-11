@@ -929,7 +929,7 @@ h1 {
 .footer-widget {
     width: 25%;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
 }
 
 .footer-widgets h1 {
@@ -945,7 +945,7 @@ h1 {
     margin-bottom: 22px;
 }
 
-.footer-widget a{
+.footer-widget a {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -954,7 +954,8 @@ h1 {
     color: #FFFFFF;
     text-decoration: none;
 }
-.footer-address div{
+
+.footer-address div {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -962,7 +963,44 @@ h1 {
     line-height: 20px;
     color: #FFFFFF;
 }
+
 /*End block footer*/
 /*Start block copiryght*/
+.copiryght {
+    width: 1440px;
+    height: 42px;
+    background-color: #F9F6E5;
+    display: flex;
+    justify-content: center;
+
+}
+
+.copiryght-wraper {
+    padding-top: 15px;
+    width: 1153px;
+    height: 42px;
+    position: relative;    
+}
+.copiryght-wraper a{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+.copiryght-wraper div {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4A4A4A;
+    margin-right: 24px;
+}
+
+.copiryght-wraper img {
+    width: 30px;
+    height: 15px;
+}
 
 /*End block copiryght*/
