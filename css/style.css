@@ -30,7 +30,7 @@ h1 {
 .header {
     box-shadow: 0px 0px 2px 0px #9B9B9B7F;
     display: flex;
-    width: 1440px;
+    width: auto;
     margin: 0 auto;
 }
 
@@ -84,7 +84,7 @@ h1 {
 .intro {
     position: relative;
     display: flex;
-    width: 1440px;
+    width: auto;
     height: 668px;
     margin: 0 auto;
     flex-direction: column;
@@ -175,7 +175,7 @@ h1 {
 .promo {
     display: flex;
     margin: 0 auto;
-    width: 1440px;
+    width: auto;
     height: 192px;
     background: #2B4074;
     color: #FFFFFF;
@@ -235,7 +235,7 @@ h1 {
 /*End block promo*/
 /*Start block services*/
 .services {
-    width: 1440px;
+    width: auto;
     height: 547px;
     display: flex;
     flex-direction: row;
@@ -420,7 +420,7 @@ h1 {
 /*End block services*/
 /*Start block recent work*/
 .recent-work {
-    width: 1440px;
+    width: auto;
     height: 618px;
     background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0) 100%);
 
@@ -430,8 +430,7 @@ h1 {
     position: relative;
     width: 1152px;
     height: 668px;
-    left: 0px;
-    top: 0px;
+
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -527,7 +526,7 @@ h1 {
 /*End block recent work*/
 /*Start block video*/
 .video {
-    width: 1440px;
+    width: auto;
     height: 580px;
 }
 
@@ -612,7 +611,7 @@ h1 {
 /*End block video*/
 /*Start block latest news*/
 .latest-news {
-    width: 1441px;
+    width: auto;
     height: 1044px;
     background: #F9F6E5;
     display: flex;
@@ -765,7 +764,7 @@ h1 {
 /*Start block testimonial*/
 .testimonial {
     position: relative;
-    width: 1440px;
+    width: auto;
     height: 480px;
     background: #FFFFFF;
 }
@@ -839,7 +838,7 @@ h1 {
 /*End block testimonial*/
 /*Start block footer*/
 .footer {
-    width: 1440px;
+    width: auto;
     height: 728px;
     background-color: #FFFFFF;
 }
@@ -967,7 +966,7 @@ h1 {
 /*End block footer*/
 /*Start block copiryght*/
 .copiryght {
-    width: 1440px;
+    width: auto;
     height: 42px;
     background-color: #F9F6E5;
     display: flex;
@@ -979,15 +978,17 @@ h1 {
     padding-top: 15px;
     width: 1153px;
     height: 42px;
-    position: relative;    
+    position: relative;
 }
-.copiryght-wraper a{
+
+.copiryght-wraper a {
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     text-decoration: none;
 }
+
 .copiryght-wraper div {
     font-family: 'Roboto Condensed';
     font-style: normal;
@@ -995,7 +996,7 @@ h1 {
     font-size: 16px;
     line-height: 19px;
     color: #4A4A4A;
-    margin-right: 24px; 
+    margin-right: 24px;
 }
 
 .copiryght-wraper img {
@@ -1004,3 +1005,17 @@ h1 {
 }
 
 /*End block copiryght*/
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+    body {
+        width: 1024px
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1440px) {
+    body {
+        width: 1440px;
+    }
+}
