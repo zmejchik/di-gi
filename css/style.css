@@ -236,7 +236,6 @@ h1 {
 /*Start block services*/
 .services {
     width: auto;
-    height: 547px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -839,12 +838,11 @@ h1 {
 /*Start block footer*/
 .footer {
     width: auto;
-    height: 728px;
     background-color: #FFFFFF;
 }
 
 .footer-after-wraper {
-    width: 1440px;
+    width: auto;
     height: 728px;
     background-color: #2B4074;
 }
@@ -1008,7 +1006,7 @@ h1 {
 /* Large devices (laptops/desktops, 1024px and up) */
 @media only screen and (min-width: 1024px) {
     body {
-        width: 1024px
+        width: 1024px;
     }
 
 }
