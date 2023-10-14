@@ -61,7 +61,7 @@ h1 {
     font-family: 'Roboto';
     text-decoration: none;
     display: block;
-    
+
 }
 
 .menu-content a:hover {
@@ -166,7 +166,6 @@ h1 {
     display: flex;
     margin: 0 auto;
     width: auto;
-    height: 192px;
     background: #2B4074;
     color: #FFFFFF;
     position: relative;
@@ -175,13 +174,9 @@ h1 {
 
 .promo-teatle {
     width: 557px;
-    height: 32px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 32px;
-    margin: 57px auto 4px 150px;
 }
 
 .promo-text {
@@ -191,9 +186,6 @@ h1 {
     font-family: 'Dosis';
     font-style: normal;
     font-weight: 300;
-    font-size: 16px;
-    line-height: 18px;
-    margin: 0 auto 57px 150px;
 }
 
 
@@ -202,7 +194,6 @@ h1 {
     width: 200px;
     height: 50px;
     top: -50px;
-    margin: auto 135px auto auto;
     background-color: #F9F6E5;
     justify-content: center;
 }
@@ -225,16 +216,12 @@ h1 {
 /*End block promo*/
 /*Start block services*/
 .services {
-    width: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .services-left {
-    width: 516px;
-    height: 547px;
-    margin: 0 auto;
     background: #FFFFFF;
     position: relative;
     display: flex;
@@ -243,37 +230,24 @@ h1 {
 
 .services-title {
     position: relative;
-    width: 131px;
-    height: 56px;
-    top: 90px;
-    left: 62px;
     font-family: 'Roboto Condensed';
     font-size: 48px;
     font-weight: 400;
     line-height: 56px;
     letter-spacing: 0px;
-    text-align: left;
     color: #2B4074;
 }
 
 .services-content {
     position: relative;
-    width: 393px;
-    height: 278px;
-    top: 134px;
-    left: 62px;
-
+ 
 }
 
 .services-slogan {
     position: relative;
-    width: 393px;
-    height: 60px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 26px;
     color: #4A4A4A;
 }
 
@@ -287,29 +261,19 @@ h1 {
 
 .services-manual {
     position: relative;
-    width: 351px;
-    height: 68px;
     top: 74px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
     color: #797979;
 }
 
 .services-items {
     position: relative;
-    width: 921px;
-    height: 547px;
 }
 
 .services-icon-wrapper {
     position: relative;
-    width: 853px;
-    height: 467px;
-    /*top: 79px;*/
-    left: 27px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -410,7 +374,6 @@ h1 {
 /*Start block recent work*/
 .recent-work {
     width: auto;
-    height: 618px;
     background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0) 100%);
 
 }
@@ -418,8 +381,6 @@ h1 {
 .recent-work-wraper {
     position: relative;
     width: 1152px;
-    height: 668px;
-
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -458,8 +419,7 @@ h1 {
 .recent-work-picture-block {
     position: relative;
     width: 1138px;
-    height: 294px;
-    margin: 80px auto 0 auto;
+    margin: 80px auto 80px auto;
 }
 
 .recent-work-picture {
@@ -996,30 +956,95 @@ h1 {
 /* Large devices (laptops/desktops, 1024px and up) */
 @media only screen and (min-width: 1024px) {
     body {
-        width: 1024px;        
+        width: 1024px;
     }
-    h1{
+
+    h1 {
         font-size: 84px;
         line-height: 84px
     }
-    .header-logo-link{
+
+    .header-logo-link {
         padding-left: 0%;
         margin-left: 46px;
     }
-    .dropdown-menu{
+
+    .dropdown-menu {
         margin-right: 46px;
         padding-right: 0%;
     }
-    .intro{
+
+    .intro {
         height: 618px;
     }
-    .intro-text {        
+
+    .intro-text {
         font-size: 18px;
-        line-height: 20px;        
+        line-height: 20px;
     }
-    .buttons-slider img{
+
+    .buttons-slider img {
         width: 56px;
         height: 56px;
+    }
+
+    .promo {
+        height: 160px;
+    }
+
+    .promo-teatle {
+        font-size: 24px;
+        line-height: 32px;
+        margin: 40px auto 10px 46px;
+    }
+
+    .promo-text {
+        font-size: 14px;
+        line-height: 16px;
+        margin: 0 auto 40px 46px;
+    }
+
+    .promo-button {
+        margin: auto 43px auto auto;
+    }
+
+    .services {
+        width: 100%;
+    }
+
+    .services-left {
+        width: 100%;
+    }
+
+    .services-left:first-child {
+        align-items: center;
+    }
+    .services-title {
+        margin: 52px auto 28px auto;        
+        text-align: center;
+    }
+    .services-content {
+        width: 100%;
+     
+    }
+    .services-slogan {
+        width: 100%;
+        font-size: 24px;
+        line-height: 26px;
+
+    }
+    .services-manual {
+        width: auto;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .services-items {
+        width: 100%;
+        margin: 105px auto 12px auto;
+    }
+    .services-icon-wrapper {
+        width: 100%;
+        margin-top: 105px;
     }
 }
 
@@ -1028,28 +1053,91 @@ h1 {
     body {
         width: 1440px;
     }
-    h1{
+
+    h1 {
         font-size: 96px;
         line-height: 96px
     }
-    .header-logo-link{
+
+    .header-logo-link {
         padding-left: 0%;
         margin-left: 153px;
     }
-    .dropdown-menu{
+
+    .dropdown-menu {
         margin-right: 153px;
         padding-right: 0%;
     }
-    .intro{
+
+    .intro {
         height: 668px;
     }
-    .intro-text {        
+
+    .intro-text {
         font-size: 24px;
-        line-height: 26px;        
+        line-height: 26px;
     }
-    .buttons-slider img{
+
+    .buttons-slider img {
         width: 70px;
         height: 70px;
+    }
+
+    .promo {
+        height: 192px;
+    }
+
+    .promo-teatle {
+        font-size: 24px;
+        line-height: 32px;
+        margin: 57px auto 4px 150px;
+    }
+
+    .promo-text {
+        font-size: 16px;
+        line-height: 18px;
+        margin: 0 auto 57px 150px;
+    }
+
+    .promo-button {
+        margin: auto 135px auto auto;
+    }
+
+    .services {
+        width: auto;
+    }
+
+    .services-left {
+        width: 516px;
+        margin: 0 auto;
+
+    }
+    .services-title {
+        width: 131px;
+        margin: 90px auto 76px 62px;        
+        text-align: left;
+    }
+    .services-content {
+        width: 393px;
+     
+    }
+    .services-slogan {
+        width: 393px;       
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .services-manual {
+        width: 351px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .services-items {
+        width: 921px;
+        margin: auto;
+    }
+    .services-icon-wrapper {
+        width: 853px;
+        margin-top: 0px;
     }
     /*<picture class="carusel-img">
 		<source srcset="images/carusel-1-midi.jpg" media="(max-width: 600px)">
