@@ -17,9 +17,7 @@ body {
 
 h1 {
     font-family: 'Roboto Condensed';
-    font-size: 96px;
     font-weight: 400;
-    line-height: 96px;
     letter-spacing: 2px;
     text-align: center;
     margin: 0;
@@ -36,22 +34,17 @@ h1 {
 
 .bg {
     background-color: #2B4074;
-    width: 1440px;
-    height: 100px;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header-logo-link {
-    padding-left: 153px;
-}
-
 .dropdown-menu {
     position: relative;
     display: inline-block;
-    padding-right: 135px;
+    border-radius: 5px;
 }
 
 .menu-content {
@@ -68,6 +61,7 @@ h1 {
     font-family: 'Roboto';
     text-decoration: none;
     display: block;
+    
 }
 
 .menu-content a:hover {
@@ -85,7 +79,6 @@ h1 {
     position: relative;
     display: flex;
     width: auto;
-    height: 668px;
     margin: 0 auto;
     flex-direction: column;
     background-image: url(../images/intro-background.png);
@@ -93,7 +86,6 @@ h1 {
 
 .intro-teatle {
     width: 514px;
-    height: 192px;
     color: #FFFFFF;
     margin: 107px auto 18px auto;
 }
@@ -104,8 +96,6 @@ h1 {
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 26px;
     text-align: center;
     color: #FFFFFF;
     padding: 0 80px;
@@ -1006,9 +996,31 @@ h1 {
 /* Large devices (laptops/desktops, 1024px and up) */
 @media only screen and (min-width: 1024px) {
     body {
-        width: 1024px;
+        width: 1024px;        
     }
-
+    h1{
+        font-size: 84px;
+        line-height: 84px
+    }
+    .header-logo-link{
+        padding-left: 0%;
+        margin-left: 46px;
+    }
+    .dropdown-menu{
+        margin-right: 46px;
+        padding-right: 0%;
+    }
+    .intro{
+        height: 618px;
+    }
+    .intro-text {        
+        font-size: 18px;
+        line-height: 20px;        
+    }
+    .buttons-slider img{
+        width: 56px;
+        height: 56px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1440px and up) */
@@ -1016,4 +1028,33 @@ h1 {
     body {
         width: 1440px;
     }
+    h1{
+        font-size: 96px;
+        line-height: 96px
+    }
+    .header-logo-link{
+        padding-left: 0%;
+        margin-left: 153px;
+    }
+    .dropdown-menu{
+        margin-right: 153px;
+        padding-right: 0%;
+    }
+    .intro{
+        height: 668px;
+    }
+    .intro-text {        
+        font-size: 24px;
+        line-height: 26px;        
+    }
+    .buttons-slider img{
+        width: 70px;
+        height: 70px;
+    }
+    /*<picture class="carusel-img">
+		<source srcset="images/carusel-1-midi.jpg" media="(max-width: 600px)">
+		<source srcset="images/carusel-1-max.jpg" media="(max-width: 1500px)">
+		<source srcset="images/carusel-1-mini.jpg">
+		<img src="images/carusel-1-max.jpg" style="width:100%;height:668px" alt="DiGi reklama">
+	</picture>*/
 }
