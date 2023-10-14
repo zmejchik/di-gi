@@ -4,4 +4,5 @@ var msnry = new Masonry(elem, {
   itemSelector: ".latest-news-div-picture",
   horizontalOrder: true,
   gutter: 20,
+
 });
