@@ -554,8 +554,6 @@ h1 {
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
-    line-height: 56px;
     display: flex;
     text-align: center;
     color: #4A4A4A;
@@ -569,7 +567,6 @@ h1 {
     width: 100px;
     height: 8px;
     background-color: #2B4074;
-    margin-bottom: 115px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -696,7 +693,6 @@ h1 {
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 480px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -704,7 +700,6 @@ h1 {
 .testimonial-coma {
     width: 32px;
     height: 14px;
-    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -1102,7 +1097,16 @@ h1 {
         line-height: 18px;
 
     }
+    .latest-news-title {
+        font-size: 36px;
+        line-height: 38px;
+        justify-content: center;
+        margin-bottom: 30px;
 
+    }
+    .latest-news-line{
+        margin-bottom: 50px;
+    }
     .latest-news-wraper {
         width: 570px;
 
@@ -1111,7 +1115,35 @@ h1 {
     .latest-news-content {
         left: auto;
     }
+    .testimonial-wraper .controls{
+        margin-bottom: 40px;
+    }
+    .testimonial-coma {
+        margin-top: 60px;
+    }
+    .testimonial-slider {
+        width: 687px;        
+    }
+    .testimonial-text{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .testimonial-author {
+        font-size: 20px;
+        line-height: 23px;
 
+    }
+    .footer-text {
+        font-size: 32px;
+        line-height: 32px;
+        margin-left: 45px;
+        top:114px;
+        margin-bottom: 40px;
+    }
+    .footer-social {
+        width: 690px;
+
+    }
 
 }
 
@@ -1315,12 +1347,25 @@ h1 {
         width: 932px;
 
     }
+    .latest-news-title {
+        font-size: 48px;
+        line-height: 56px;
 
+    }
+    .latest-news-line {
+        margin-bottom: 96px;
+
+    }
     .latest-news-content {
         left: 40px;
 
     }
-
+    .testimonial-wraper .controls{
+        margin-bottom: 80px;
+    }
+    .testimonial-coma {
+        margin-top: 100px;
+    }
     .testimonial-slider {
         font-size: 32px;
         line-height: 38px;
@@ -1570,12 +1615,25 @@ h1 {
         width: 1153px;
 
     }
+    .latest-news-title {
+        font-size: 48px;
+        line-height: 56px;
 
+    }
+    .latest-news-line {
+        margin-bottom: 115px;
+
+    }
     .latest-news-content {
         left: 10px;
 
     }
-
+    .testimonial-coma {
+        margin-top: 100px;
+    }
+    .testimonial-wraper .controls{
+        margin-bottom: 80px;
+    }
     .testimonial-slider {
         font-size: 36px;
         line-height: 42px;
@@ -1595,7 +1653,7 @@ h1 {
 
     .footer-social {
         width: 1143px;
-
+height: 63px;
     }
 
     .footer-widgets {
