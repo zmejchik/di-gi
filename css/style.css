@@ -926,10 +926,92 @@ h1 {
     }
 
     .buttons-slider {
-        bottom: 150px;
+        bottom: 220px;
+
+    }
+    .promo {
+        height: 254px;
+        
+    }
+
+    .promo-teatle {
+        font-size: 24px;
+        line-height: 24px;
+        margin: 40px auto 10px auto;
+        text-align: center;
+    }
+    .promo-text {
+        width: auto;
+        font-size: 16px;
+        line-height: 18px;
+        margin: 0px auto 0px 128px;
+        text-align: center;
+
+    }
+    .promo-button {
+        margin: 130px auto auto auto;
+    }
+
+    .services {
+        width: 100%;
+    }
+
+    .services-left {
+        width: 100%;
+    }
+
+    .services-left:first-child {
+        align-items: center;
+    }
+
+    .services-title {
+        margin: 24px auto 12px auto;
+        text-align: center;
+    }
+    .services-content {
+        width: 100%;
 
     }
 
+    .services-slogan {
+        width: 560px;
+        font-size: 24px;
+        line-height: 26px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .services-manual {
+        width: 600px;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 27px;
+    }
+    .services-line {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .services-manual{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    
+    }
+    .services-items {
+        width: 100%;
+        margin: 105px auto 12px auto;
+    }
+    .services-icon-wrapper {
+        width: 100%;
+
+    }
+
+    .services-icon {
+        width: 50%;
+    }
 }
 
 /* Devices (tablets, 768px and up) */
@@ -991,12 +1073,14 @@ h1 {
         font-size: 24px;
         line-height: 24px;
         margin: 60px auto 37px 46px;
+        text-align: left;
     }
 
     .promo-text {
         font-size: 16px;
         line-height: 18px;
         margin: 37px auto 30px 46px;
+        text-align: left;
     }
 
     .promo-button {
@@ -1029,7 +1113,8 @@ h1 {
         width: 100%;
         font-size: 24px;
         line-height: 26px;
-
+        text-align: left;
+        margin-left: 46px;
     }
 
     .services-manual {
@@ -1037,8 +1122,13 @@ h1 {
         font-size: 18px;
         line-height: 24px;
         margin-bottom: 27px;
+        text-align: left;
+        margin-left: 46px;
     }
+    .services-line {
+        margin-left: 46px;
 
+    }
     .services-items {
         width: 100%;
         margin: 105px auto 12px auto;
@@ -1302,12 +1392,14 @@ h1 {
         font-size: 24px;
         line-height: 32px;
         margin: 40px auto 10px 46px;
+        text-align: left;
     }
 
     .promo-text {
         font-size: 14px;
         line-height: 16px;
         margin: 0 auto 40px 46px;
+        text-align: left;
     }
 
     .promo-button {
@@ -1340,15 +1432,21 @@ h1 {
         width: 100%;
         font-size: 24px;
         line-height: 26px;
-
+        text-align: left;
+        margin-left: 46px;
     }
 
     .services-manual {
         width: 608px;
         font-size: 18px;
         line-height: 24px;
+        text-align: left;
+        margin-left: 46px;
     }
+    .services-line {
+        margin-left: 46px;
 
+    }
     .services-items {
         width: 100%;
         margin: 105px auto 12px auto;
@@ -1604,12 +1702,14 @@ h1 {
         font-size: 24px;
         line-height: 32px;
         margin: 57px auto 4px 150px;
+        text-align: left;
     }
 
     .promo-text {
         font-size: 16px;
         line-height: 18px;
         margin: 0 auto 57px 150px;
+        text-align: left;
     }
 
     .promo-button {
@@ -1641,14 +1741,21 @@ h1 {
         width: 393px;
         font-size: 24px;
         line-height: 26px;
+        text-align: left;
+        margin-left: 0px;
     }
 
     .services-manual {
         width: 351px;
         font-size: 18px;
         line-height: 24px;
+        margin-left: 0%;
+        text-align: left;
     }
-
+    .services-line {
+        margin-left: 0px;
+        text-align: left;
+    }
     .services-items {
         width: 921px;
         margin: auto;
