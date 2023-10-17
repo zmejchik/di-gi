@@ -1012,6 +1012,33 @@ h1 {
     .services-icon {
         width: 50%;
     }
+    .recent-work-pictures {
+        margin-left: 53px;
+        margin-right: 53px;
+    }
+
+    .recent-work-picture {
+        width: 518px;
+        height: 460px;
+    }
+
+    .recent-work-picture img {
+        width: 518px;
+        height: 460px;
+
+    }
+    .recent-work-picture-block {
+        margin: 43px auto 43px auto;
+    }
+
+    .recent-work-picture-hover {
+        width: 470px;
+        height: 440px;
+        top: -453px;
+        left: 26px;
+
+    }
+
 }
 
 /* Devices (tablets, 768px and up) */
