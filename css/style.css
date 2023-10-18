@@ -902,6 +902,20 @@ h1 {
         background-image: url(../images/intro-background320.png);
 
     }
+    .intro-teatle {
+        width: 260px;
+        margin: 36px auto 20px auto;
+    }
+
+    .intro-text {
+        width: 61px;
+        height: 8px;
+        padding: 0;
+        background-color: #4A4A4A;
+        font-size: 0px;
+        line-height: 20px;
+        margin-bottom: 28px;
+    }
 }
 
 /* Devices (640px and up) */
