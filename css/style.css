@@ -206,7 +206,7 @@ h1 {
 .promo-button-call {
     position: relative;
     top: 20px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 18px;
