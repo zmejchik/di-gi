@@ -798,7 +798,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #7EBF84
 }
 
 .footer-widgets {
@@ -1322,7 +1321,8 @@ h1 {
     }
 
     .promo-teatle {
-        font-size: 24px;
+        width: 580px;
+        font-size: 24p;
         line-height: 24px;
         margin: 40px auto 10px auto;
         text-align: center;
@@ -1338,7 +1338,7 @@ h1 {
     }
 
     .promo-button {
-        margin: 105px auto auto auto;
+        margin: 125px auto auto auto;
     }
 
     .services {
@@ -1582,6 +1582,15 @@ h1 {
     .footer-cell {
         width: 25%;
         height: 63px;
+        border: 1px solid #7EBF84
+    }
+
+    .footer-cell:first-child {
+        border-left: none;
+    }
+
+    .footer-cell:last-child {
+        border-right: none;
     }
 
     .footer-contact {
