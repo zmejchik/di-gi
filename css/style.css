@@ -184,8 +184,6 @@ h1 {
 }
 
 .promo-text {
-    position: absolute;
-    top: 93px;
     height: 42px;
     font-family: 'Dosis';
     font-style: normal;
@@ -194,7 +192,7 @@ h1 {
 
 
 .promo-button {
-    position: relative;
+    display: flex;
     width: 200px;
     height: 50px;
     top: -50px;
@@ -203,8 +201,7 @@ h1 {
 
 
 .promo-button-call {
-    position: relative;
-    top: 20px;
+
     font-family: 'Roboto', system-ui;
     font-size: 18px;
     font-weight: 500;
@@ -944,7 +941,7 @@ h1 {
         width: 220px;
         font-size: 24px;
         line-height: 24px;
-        margin: 40px auto 10px auto;
+        margin: 40px auto 0 auto;
         text-align: center;
     }
 
@@ -952,13 +949,13 @@ h1 {
         width: auto;
         font-size: 16px;
         line-height: 18px;
-        margin: 0px 20px 40px 20px;
+        margin: 10px 20px 0 20px;
         text-align: center;
 
     }
 
     .promo-button {
-        margin: 150px auto auto auto;
+        margin: 40px auto auto auto;
     }
 
     .services {
@@ -1337,7 +1334,7 @@ h1 {
         width: 580px;
         font-size: 24px;
         line-height: 24px;
-        margin: 40px auto 10px auto;
+        margin: 40px auto 0 auto;
         text-align: center;
     }
 
@@ -1345,13 +1342,13 @@ h1 {
         width: auto;
         font-size: 16px;
         line-height: 18px;
-        margin: 0px auto 0px 128px;
+        margin: 10px auto 0px auto;
         text-align: center;
 
     }
 
     .promo-button {
-        margin: 125px auto auto auto;
+        margin: 40px auto auto auto;
     }
 
     .services {
@@ -1721,19 +1718,19 @@ h1 {
     .promo-teatle {
         font-size: 24px;
         line-height: 24px;
-        margin: 60px auto 37px 46px;
+        margin: 40px auto 0 46px;
         text-align: left;
     }
 
     .promo-text {
         font-size: 16px;
         line-height: 18px;
-        margin: 37px auto 30px 46px;
+        margin: 37px auto 0 46px;
         text-align: left;
     }
 
     .promo-button {
-        margin: -8px 43px auto auto;
+        margin: -90px 43px auto auto;
     }
 
     .services {
@@ -2055,19 +2052,19 @@ h1 {
     .promo-teatle {
         font-size: 24px;
         line-height: 32px;
-        margin: 40px auto 10px 46px;
+        margin: 40px auto 0 46px;
         text-align: left;
     }
 
     .promo-text {
         font-size: 14px;
         line-height: 16px;
-        margin: 0 auto 40px 46px;
+        margin: 10px auto 0 46px;
         text-align: left;
     }
 
     .promo-button {
-        margin: auto 43px auto auto;
+        margin: -68px 43px auto auto;
     }
 
     .services {
@@ -2369,19 +2366,19 @@ h1 {
     .promo-teatle {
         font-size: 24px;
         line-height: 32px;
-        margin: 57px auto 4px 150px;
+        margin: 57px auto 0px 150px;
         text-align: left;
     }
 
     .promo-text {
         font-size: 16px;
         line-height: 18px;
-        margin: 0 auto 57px 150px;
+        margin: 4px auto 0 150px;
         text-align: left;
     }
 
     .promo-button {
-        margin: auto 135px auto auto;
+        margin: -72px 135px auto auto;
     }
 
     .services {
