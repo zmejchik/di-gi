@@ -1255,12 +1255,14 @@ h1 {
         margin-top: 0;
         padding-top: 0;
     }
-    .copiryght-wraper div{
+
+    .copiryght-wraper div {
         margin-bottom: 20px;
         margin-left: auto;
         margin-right: auto;
     }
-    .copiryght-wraper a{
+
+    .copiryght-wraper a {
         flex-direction: column;
         align-items: center;
     }
@@ -1650,11 +1652,13 @@ h1 {
         margin-right: 15px;
         padding-top: 15px;
     }
-    .copiryght-wraper div{
+
+    .copiryght-wraper div {
         margin-bottom: 0;
         margin-right: 24px;
     }
-    .copiryght-wraper a{
+
+    .copiryght-wraper a {
         flex-direction: row;
     }
 
