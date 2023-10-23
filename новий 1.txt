@@ -1,0 +1,7 @@
+<meta property="og:title" content="DI GI МИСЛИ ГЛОБАЛЬНО">
+<meta property="og:site_name" content="Di Gі">
+<meta property="og:url" content="https://zmejchik.github.io/di-gi/">
+<meta property="og:description" content="Di Gі — це діджитал агенція повного циклу, спрямована на найкращий
+результат наших клієнтів в маркетингу, продажах та управлінні">
+<meta property="og:type" content=website>
+<meta property="og:image" content="https://zmejchik.github.io/di-gi/images/intro-background320.png">
