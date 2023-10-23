@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     let currentIndex = 0;
     const introTextSlider = document.querySelector(".testimonial-slider");
-  
+    document.getElementById("testimonial-first").checked = true;
+
     function showSlide(index) {
       const slides = document.querySelectorAll(".testimonial-slider .testimonial-text");
       slides.forEach((slide, i) => {
