@@ -348,9 +348,6 @@ h1 {
 .services-icon:hover .services-hide-text {
     visibility: visible;
     margin-top: 21px;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
 }
@@ -1027,8 +1024,6 @@ h1 {
 
     .recent-work-teatle-text {
         margin: 20px auto;
-        width: -webkit-fit-content;
-        width: -moz-fit-content;
         width: fit-content;
         font-size: 24px;
         line-height: 28px;
