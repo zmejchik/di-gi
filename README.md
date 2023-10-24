@@ -13,7 +13,7 @@ https://zmejchik.github.io/di-gi/
 
 + The block form of HTML markup and styling using CSS was used in the development.
 
-JavaScript was used to create a text carousel in certain blocks.
++ JavaScript was used to create a text carousel in certain blocks.
 
 + Open Graph markup is used for placement on social services. 
 
