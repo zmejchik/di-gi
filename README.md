@@ -23,6 +23,6 @@ Clone the repository on your local machine.
 Open the HTML files in your preferred web browser to view the site.
 If you want to change the styles, you can work with the style.css file in the css directory.
 License
-This project is open source and available under the CC BY-NC license ().
+This project is open source and available under the CC BY-NC license.
 
 Feel free to reach out if you have any questions or need additional help!
