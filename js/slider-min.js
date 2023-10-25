@@ -12,9 +12,9 @@ var h1Element = document.querySelector('.intro-teatle h1');
       case "0":
         return "МИСЛИ ГЛОБАЛЬНО";
       case "1":
-        return "МИСЛИ ГЛОБАЛЬНО1";
+        return "МИСЛИ КРЕАТИВНО";
       case "2":
-        return "МИСЛИ ГЛОБАЛЬНО2";
+        return "МИСЛИ РАДІСНО";
       default:
         return "МИСЛИ ГЛОБАЛЬНО";
     }
